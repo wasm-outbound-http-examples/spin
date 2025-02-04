@@ -47,7 +47,7 @@ cp ../init.pl ./src/
 5. Patch `spin.toml` to allow HTTP requests be sent to all hosts (use `insecure:allow-all` with caution):
 
 ```sh
-sed -i.bak 's/allowed_http_hosts = []/allowed_http_hosts = ["insecure:allow-all"]/' spin.toml
+sed -i.bak 's/allowed_http_hosts = \[\]/allowed_http_hosts = \["insecure:allow-all"\]/' spin.toml
 ```
 
 ### Test with browser
