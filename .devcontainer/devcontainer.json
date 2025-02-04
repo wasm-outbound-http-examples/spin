@@ -1,0 +1,4 @@
+{
+    "name": "spin: HTTP request from WASM",
+    "postCreateCommand": "bash .devcontainer/postCreate.sh"
+}
